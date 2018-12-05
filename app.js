@@ -10,5 +10,5 @@ for (i = 0; i <= 10; i++) {
 const data = new Uint8Array(Buffer.from(datos));
 fs.writeFile(`tabla del ${base}.txt`, data, (err) => {
     if (err) throw err;
-    console.log('Archivo creado!');
+    console.log('Archivo creado correctamente');
 });
